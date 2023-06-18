@@ -1,0 +1,31 @@
+                                                                                                                                                                                   ASSIGNMENT-3
+
+1.  We start learning a programming language with "Hello, World!" because it is a simple program that allows us to get familiar with the basic syntax and structure of the programming language. It is also a way to test that the development environment and compiler or interpreter are set up correctly. Once we can successfully run the "Hello, World!" program, we can move on to more complex programs. Additionally, "Hello, World!" is a tradition that dates back to the early days of computer programming, and it has become a sort of rite of passage for new programmers.
+
+2.   Comments are used in HTML to provide additional information about the code and to make it easier to understand and maintain. They are not displayed in the web page itself, but can be viewed in the   HTML source code. 
+In HTML, comments are written using the `<!--` and `-->` tags. Anything between these tags is considered a comment and is ignored by the web browser. For example, if we wanted to add a comment to an HTML file, we could do it like this:
+html
+<!-- This is a comment in HTML -->
+<p>This is some text that will be displayed on the web page.</p>
+In this example, the text "This is a comment in HTML" is a comment and will not be displayed in the web page. The `<p>` tag and the text "This is some text that will be displayed on the web page." are not comments and will be displayed in the web page.
+
+3.   In HTML, an element is a part of a web page that contains content and is enclosed by tags. Tags are used to define the start and end of an element, and they are enclosed in angle brackets. Attributes are used to provide additional information about an element, such as its size, color, or location.
+For example, the following HTML code contains an element called "p" (short for "paragraph"), which contains some text:
+html
+<p>This is a paragraph of text.</p>
+In this example, the `<p>` tag defines the start of the "p" element, and the `</p>` tag defines the end of the element. The text "This is a paragraph of text." is the content of the element.
+Attributes are added to an element's opening tag to provide additional information about the element. For example, the following HTML code adds a "class" attribute to the "p" element:
+html
+<p class="example">This is a paragraph of text.</p>
+In this example, the "class" attribute is added to the `<p>` tag and has a value of "example". This attribute can be used to apply CSS styles to the "p" element.
+In summary, elements are parts of a web page that contain content, tags define the start and end of an element, and attributes provide additional information about an element.
+
+4.  HTML entities are special codes that are used to display characters that have a special meaning in HTML. For example, the less than symbol (<) and the greater than symbol (>) are used as part of HTML tags, so if we want to display them as text on a web page, we need to use an HTML entity. 
+HTML entities are written using an ampersand (&), followed by a code that represents the character we want to display, and ending with a semicolon (;). For example, the HTML entity for the less than symbol is `&lt;`, and the entity for the greater than symbol is `&gt;`. 
+Here are some other examples of HTML entities:
+- `&amp;` - ampersand
+- `&quot;` - double quotation mark
+- `&apos;` - apostrophe
+- `&copy;` - copyright symbol
+- `&reg;` - registered trademark symbol
+Using HTML entities ensures that special characters are displayed correctly on a web page, even if they have a special meaning in HTML
